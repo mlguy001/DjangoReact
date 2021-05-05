@@ -1,2 +1,6 @@
 django-admin startproject music_controller
 djangect music_controllero-admin startapp api (inside project)
+
+python .\manage.py makemigrations (whenever we change the database)
+python .\manage.py migrate
+python .\manage.py runserver
